@@ -70,3 +70,30 @@ body {
   font-size: 0.75rem;
   font-weight: 500;
 }
+
+.meme--form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+gap: 17px;
+}
+
+
+
+.meme--input--field {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8
+}
+
+.meme--button {
+  align-items: center;
+  grid-column: 1 / -1;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 36px;
+}
