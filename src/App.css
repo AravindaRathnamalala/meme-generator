@@ -94,6 +94,10 @@ gap: 17px;
   cursor: pointer;
 }
 
+.meme--image {
+  max-width: 100%;
+}
+
 main {
   padding: 36px;
 }
